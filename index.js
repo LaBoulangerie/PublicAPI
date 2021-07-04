@@ -1,5 +1,13 @@
-const app = require("fastify")({ logger: true });
 const fs = require("fs");
+const path = require('path')
+const app = require("fastify")({
+    logger: true,
+});
+
+app.register(require("fastify-static"), {
+    root: path.join(__dirname, "doc"),
+});
+
 const logs = require("./utils/logs");
 
 require("dotenv").config();
@@ -13,6 +21,10 @@ for (const routeFile of routesFolder) {
         app.route(route);
     });
 }
+
+app.get("/docs", (req, res) => {
+    return res.sendFile("index.html");
+});
 
 const start = async () => {
     try {

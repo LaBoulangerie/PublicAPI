@@ -12,9 +12,12 @@
     "chalk": "^4.1.1",
     "dotenv": "^10.0.0",
     "fastify": "^3.18.1",
+    "fastify-static": "^4.2.2",
     "js-yaml": "^4.1.0",
     "mysql": "^2.18.1",
     "node-fetch": "^2.6.1",
-    "ssh2-sftp-client": "^7.0.0"
+    "path": "^0.12.7",
+    "ssh2-sftp-client": "^7.0.0",
+    "swagger-ui-dist": "^3.51.1"
   }
 }

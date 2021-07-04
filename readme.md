@@ -7,3 +7,7 @@ API running on http://api.laboulangerie.net:4343
 ## 📚 Documentation
 
 Documentation can be found [here](http://api.laboulangerie.net:4343/docs)
+
+## ⚖ License
+
+[MIT License](LICENSE)
