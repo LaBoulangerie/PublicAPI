@@ -1,0 +1,20 @@
+{
+  "name": "lblg_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PainOchoco",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.18.1",
+    "js-yaml": "^4.1.0",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
+    "ssh2-sftp-client": "^7.0.0"
+  }
+}
