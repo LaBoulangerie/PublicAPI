@@ -1,0 +1,229 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "La Boulangerie Public API",
+        "description": "La Boulangerie Minecraft server REST Public API",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://api.laboulangerie.net:4343"
+        }
+    ],
+    "paths": {
+        "/nation": {
+            "get": {
+                "description": "Auto generated using Swagger Inspector",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "BreadPain"
+                    },
+                    {
+                        "name": "uuid",
+                        "in": "query",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "4d83b0f8-110a-4a36-8f4b-451031d6f867"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://api.laboulangerie.net:4343"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://api.laboulangerie.net:4343"
+                }
+            ]
+        },
+        "/player": {
+            "get": {
+                "description": "Auto generated using Swagger Inspector",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "PainOchoco"
+                    },
+                    {
+                        "name": "uuid",
+                        "in": "query",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "3ee833a1-ce20-4057-a5e2-a85212ce8bbe"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://api.laboulangerie.net:4343"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://api.laboulangerie.net:4343"
+                }
+            ]
+        },
+        "/nations": {
+            "get": {
+                "description": "Auto generated using Swagger Inspector",
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://api.laboulangerie.net:4343"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://api.laboulangerie.net:4343"
+                }
+            ]
+        },
+        "/players": {
+            "get": {
+                "description": "Auto generated using Swagger Inspector",
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector"
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://api.laboulangerie.net:4343"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://api.laboulangerie.net:4343"
+                }
+            ]
+        },
+        "/towns": {
+            "get": {
+                "description": "Auto generated using Swagger Inspector",
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://api.laboulangerie.net:4343"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://api.laboulangerie.net:4343"
+                }
+            ]
+        },
+        "/town": {
+            "get": {
+                "description": "Auto generated using Swagger Inspector",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "PainPain"
+                    },
+                    {
+                        "name": "uuid",
+                        "in": "query",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "125425e4-9df4-479e-8aeb-8aab1082eed8"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://api.laboulangerie.net:4343"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://api.laboulangerie.net:4343"
+                }
+            ]
+        }
+    }
+}
