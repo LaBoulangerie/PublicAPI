@@ -7,7 +7,7 @@
     },
     "servers": [
         {
-            "url": "http://api.laboulangerie.net:4343"
+            "url": "http://api.lblg.cc"
         }
     ],
     "paths": {
@@ -47,13 +47,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://api.laboulangerie.net:4343"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://api.laboulangerie.net:4343"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         },
@@ -93,13 +93,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://api.laboulangerie.net:4343"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://api.laboulangerie.net:4343"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         },
@@ -121,13 +121,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://api.laboulangerie.net:4343"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://api.laboulangerie.net:4343"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         },
@@ -141,13 +141,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://api.laboulangerie.net:4343"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://api.laboulangerie.net:4343"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         },
@@ -169,13 +169,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://api.laboulangerie.net:4343"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://api.laboulangerie.net:4343"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         },
@@ -215,13 +215,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://api.laboulangerie.net:4343"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://api.laboulangerie.net:4343"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         }
