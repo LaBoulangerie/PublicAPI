@@ -6,11 +6,14 @@ const utils = require("../utils/towny");
 const getAllTowns = async (req, res) => {
     let towns = [];
     connectSQL.query(
-        "SELECT name FROM TOWNY_TOWNS",
+        "SELECT name,uuid FROM TOWNY_TOWNS",
         (error, results, fields) => {
             if (error) return console.log(logs.tag.err, err);
             results.forEach((result) => {
-                towns.push(result.name);
+                towns.push({
+                    uuid: result.uuid,
+                    name: result.name,
+                });
             });
             res.send(towns);
         }

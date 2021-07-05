@@ -14,7 +14,7 @@ const getAllPlayers = async (req, res) => {
             results.forEach((result) => {
                 players.push({
                     uuid: result.uuid,
-                    username: result.name,
+                    name: result.name,
                 });
             });
             res.send(players);
