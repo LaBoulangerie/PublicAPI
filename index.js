@@ -7,6 +7,12 @@ const logs = require("./utils/logs");
 require("dotenv").config();
 const port = process.env.PORT;
 
+// Rate limit
+app.register(require("fastify-rate-limit"), {
+    max: 60,
+    timeWindow: "1 minute",
+});
+
 // Swagger docs
 app.register(require("fastify-swagger"), {
     exposeRoute: true,

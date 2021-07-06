@@ -12,6 +12,7 @@
     "chalk": "^4.1.1",
     "dotenv": "^10.0.0",
     "fastify": "^3.18.1",
+    "fastify-rate-limit": "^5.5.0",
     "fastify-static": "^4.2.2",
     "fastify-swagger": "^4.8.2",
     "js-yaml": "^4.1.0",
