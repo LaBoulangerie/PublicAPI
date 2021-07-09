@@ -7,7 +7,7 @@
     },
     "servers": [
         {
-            "url": "http://lblg.cc"
+            "url": "http://api.lblg.cc"
         }
     ],
     "paths": {
@@ -45,13 +45,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://lblg.cc"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://lblg.cc"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         },
@@ -89,13 +89,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://lblg.cc"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://lblg.cc"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         },
@@ -115,13 +115,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://lblg.cc"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://lblg.cc"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         },
@@ -134,13 +134,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://lblg.cc"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://lblg.cc"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         },
@@ -160,13 +160,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://lblg.cc"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://lblg.cc"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         },
@@ -204,13 +204,13 @@
                 },
                 "servers": [
                     {
-                        "url": "http://lblg.cc"
+                        "url": "http://api.lblg.cc"
                     }
                 ]
             },
             "servers": [
                 {
-                    "url": "http://lblg.cc"
+                    "url": "http://api.lblg.cc"
                 }
             ]
         }

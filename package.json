@@ -9,6 +9,8 @@
   "author": "PainOchoco",
   "license": "MIT",
   "dependencies": {
+    "@createjs/easeljs": "^2.0.0-beta.4",
+    "canvas": "^2.8.0",
     "chalk": "^4.1.1",
     "dotenv": "^10.0.0",
     "fastify": "^3.18.1",
@@ -19,6 +21,7 @@
     "mysql": "^2.18.1",
     "node-fetch": "^2.6.1",
     "path": "^0.12.7",
+    "skia-canvas": "^0.9.22",
     "ssh2-sftp-client": "^7.0.0"
   }
 }
