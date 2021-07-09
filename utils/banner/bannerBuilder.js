@@ -10,7 +10,7 @@ const CANVAS_HEIGHT = 400;
 const BANNER_WIDTH = 20;
 const BANNER_HEIGHT = 40;
 
-const PATTERN_IMG_COL = 5;
+const PATTERN_IMG_COL = patterns.length;
 
 let CANVAS;
 let CTX;
@@ -56,6 +56,22 @@ const drawPattern = async (patternImagePath, patternString, colorString) => {
     CTX.drawImage(colorCopy, 0, 0);
 };
 
+const drawShadow = async () => {
+    let shadowImage = await loadImage(__dirname + "/bannerShadow.png");
+
+    CTX.drawImage(
+        shadowImage,
+        0,
+        0,
+        BANNER_WIDTH,
+        BANNER_HEIGHT,
+        0,
+        0,
+        CANVAS_WIDTH,
+        CANVAS_HEIGHT
+    );
+};
+
 const buildBanner = async (baseColor, patterns) => {
     CANVAS = new Canvas(CANVAS_WIDTH, CANVAS_HEIGHT);
     CTX = CANVAS.getContext("2d");
@@ -63,18 +79,24 @@ const buildBanner = async (baseColor, patterns) => {
     // For a pixelated image
     CTX.imageSmoothingEnabled = false;
 
+    // Base color
     CTX.fillStyle = `rgb(${colors[baseColor.toLowerCase()].join(",")})`;
     CTX.fillRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 
-    for (const patternObj of patterns) {
-        await drawPattern(
-            "/patterns.png",
-            patternObj.pattern,
-            patternObj.color.toLowerCase()
-        );
+    // Draw patterns
+    if (patterns) {
+        for (const patternObj of patterns) {
+            await drawPattern(
+                "/patterns.png",
+                patternObj.pattern,
+                patternObj.color.toLowerCase()
+            );
+        }
     }
 
-    // // Base color
+    // Draw shadow
+    CTX.filter = "none";
+    await drawShadow();
 
     return CANVAS.toBuffer();
 };
