@@ -213,6 +213,9 @@
                     "url": "http://api.lblg.cc"
                 }
             ]
+        },
+        "/mojang": {
+            
         }
     }
 }
